@@ -23,7 +23,7 @@ func max(a, b int) int {
 	return b
 }
 
-func day1() {
+func part1() {
 	lines := strings.Split(input, "\n")
 	sum := 0
 
@@ -63,7 +63,7 @@ func min(a, b int) int {
 	return b
 }
 
-func day2() {
+func part2() {
 	lines := strings.Split(input, "\n")
 	sum := 0
 
@@ -97,6 +97,6 @@ func day2() {
 }
 
 func main() {
-	day1()
-	day2()
+	part1()
+	part2()
 }
